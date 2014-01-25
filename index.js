@@ -10,7 +10,7 @@ var co = require('co');
  * Primary exports
  */
 
-module.exports = function(blk) {
+var exports = module.exports = function(blk) {
   return new Future(blk);
 };
 

@@ -1,10 +1,4 @@
 
-function wait(ms) {
-  return function(done) {
-    setTimeout(done, ms);
-  }
-}
-
 suite('.wait()', function() {
   test('yields self', co(function*() {
     var called = false;
