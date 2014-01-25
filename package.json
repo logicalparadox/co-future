@@ -1,6 +1,6 @@
 {
   "name": "co-future",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Wrap a generator function in a future for fine-grained resolution control.",
   "author": "Jake Luer <jake@alogicalparadox.com> (http://alogicalparadox.com)",
   "license": "MIT",
