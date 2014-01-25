@@ -53,7 +53,7 @@ so can be used as generator try/catch replacement.
 var future = require('co-future');
 
 function*() {
-  var res = future(do.something()).wait();
+  var res = yield future(do.something()).wait();
   return res.unwrap();
 }
 ```
