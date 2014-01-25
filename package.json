@@ -1,0 +1,26 @@
+{
+  "name": "co-future",
+  "version": "0.0.0",
+  "description": "Wrap a generator function in a future for fine-grained resolution control.",
+  "author": "Jake Luer <jake@alogicalparadox.com> (http://alogicalparadox.com)",
+  "license": "MIT",
+  "keywords": [ "future", "co" ],
+  "homepage": "https://github.com/logicalparadox/co-future",
+  "main": "index.js",
+  "bugs": {
+    "url": "https://github.com/logicalparadox/co-future/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:logicalparadox/co-future.git"
+  },
+  "scripts": {
+    "test": "node_modules/goodwin/bin/goodwin --harmony"
+  },
+  "dependencies": {
+    "co": "~3.0.2"
+  },
+  "devDependencies": {
+    "goodwin": "git://github.com/logicalparadox/goodwin"
+  }
+}
