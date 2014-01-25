@@ -14,9 +14,6 @@
 
 ## Example
 
-In `co`, when an error occurs it is thrown up the stack. A future allows
-you to intervene without having `try/catch` blocks throughout your code. 
-
 ```js
 var co = require('co');
 var future = require('co-future');
